@@ -13,6 +13,8 @@
   </head>
   <body>
     <!-- this is the start of content -->
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyDL8_hQOwzmhVa9NJjCMgN7LG047EG9EHrUlIZU0Ao-AInkdjXvLzeezN&s=10"width="150px"height="150px"></img>
+     <br>
     <h1>
       Fortune Teller
     </h1>
@@ -22,6 +24,24 @@
       <br>
       <label for="questionfield">Question:</label>
       <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
+      <br>
+      <label>Addtl. Information</label>
+      <textarea id="addtlinfo"placeholder="any other info"></textarea>
+      <br>
+      <label>Add Bias</label>
+      <input type="radio" id="biasradio" name="bias" value="bias">
+      <br>
+      <label>Use Very Special Magic</label>
+      <input type="checkbox" id="usemagic" name="magicgatherer" value="magic">
+      <br>
+      <label>Degree of Magic</label>
+      <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <br>
+      <input type="reset">
       <br>
       <input type="submit">
     </form>
